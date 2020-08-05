@@ -92,17 +92,17 @@
 }
 
 .racing-car-refitting #racingGame footer .bg-color {
-    background: url(../img/racing/bg-color.png) no-repeat;
+    background: url(../img/bg-color.png) no-repeat;
     background-size: 100% 100%;
 }
 
 .racing-car-refitting #racingGame .bg-car {
-    background: url(../img/racing/bg-car.png) no-repeat;
+    background: url(../img/bg-car.png) no-repeat;
     background-size: 100% 100%;
 }
 
 .racing-car-refitting #racingGame .bg-environment {
-    background: url(../img/racing/bg-environment.png) no-repeat;
+    background: url(../img/bg-environment.png) no-repeat;
     background-size: 100% 100%;
 }
 
