@@ -1,0 +1,118 @@
+html body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.hongbao-v {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/hongbaobg.png");
+    background-size: cover;
+}
+
+.hongbao-back{
+    width: 10rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 2rem;
+    z-index: 1;
+}
+.hongbao-rule{
+    width: 6rem;
+    position: absolute;
+    top: 0.8rem;
+    right: 1.5rem;
+    z-index: 1;
+}
+
+.hb-v{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+.hongbao-title{
+    width: 28rem;
+    /*position: absolute;*/
+    float: left;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    z-index: 1;
+}
+
+.hb-open{
+    width: 28rem;
+    height: 35rem;
+    /*position: absolute;*/
+    background-image: url("../img/hb-close.png");
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    z-index: 1;
+    position: relative;
+}
+
+.hb-time-item-v{
+    width: 100%;
+    position: absolute;
+    bottom: 8rem;
+    left: 5.2rem;
+}
+
+.hb-time-item{
+    width: 2.2rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #ffffff;
+    background-color: #c72d74;
+    float: left;
+    margin-right: 0.5rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.hb-time-item2{
+    width: 0.5rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #ffffff;
+    float: left;
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.hb-day{
+    width: 40rem;
+    /*position: absolute;*/
+    float: left;
+    margin-top: 1rem;
+    margin-left: 0;
+    z-index: 1;
+}
+
+.hb-time{
+    width: 16rem;
+    float: left;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    z-index: 1;
+}

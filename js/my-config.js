@@ -1,0 +1,1 @@
+window.get_url = "https://zhygeek.com/server/JD/public/index.php/";
