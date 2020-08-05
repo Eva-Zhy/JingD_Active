@@ -6,7 +6,7 @@
     function startRacing() {
         racingGameStatus = 1;
         $('#racingLogin').hide();
-        $("#racingGame").show()
+        $("#racingGame").show();
     }
 
     function hideItem() {
@@ -47,6 +47,9 @@
             }
         }
         if (index === "4") {
+            racingGameStatus = 2;
+            $("#racingGame").hide();
+            $("#racingShow").show();
             console.log("save");
         }
         racingUlIndex = index;

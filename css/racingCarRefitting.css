@@ -127,6 +127,7 @@
     width: 6.3rem;
 }
 
+.racing-car-refitting #racingContentColor,
 .racing-car-refitting #racingContentCar,
 .racing-car-refitting #racingContentEnv {
     white-space: nowrap;
@@ -135,7 +136,8 @@
     padding: 0.2rem 0.5rem;
 }
 
-.racing-car-refitting #racingContentEnv {
+.racing-car-refitting #racingContentEnv,
+.racing-car-refitting #racingContentColor {
     margin-top: 0.1rem;
 }
 
@@ -145,4 +147,34 @@
 
 .racing-car-refitting #racingContentEnv>img {
     width: 11.5rem;
+}
+
+.racing-car-refitting #racingShow {
+    display: none;
+}
+
+.racing-car-refitting #racingShow .share {
+    background: url(../img/share.png) no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    right: 3rem;
+    top: 12rem;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.racing-car-refitting #racingShow .racingShow-button {
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 6rem;
+}
+
+.racing-car-refitting #racingShow .racingShow-button>img {
+    width: 14rem;
+}
+
+.racing-car-refitting #racingShow .racingShow-button>img:last-child {
+    width: 16rem;
+    margin-top: 4rem;
 }
