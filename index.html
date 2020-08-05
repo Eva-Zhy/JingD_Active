@@ -1,58 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Title</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="viewport"
-          content="width=device-width,maximum-scale=1, minimum-scale=1, initial-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,maximum-scale=1, minimum-scale=1, initial-scale=1.0, user-scalable=no" />
     <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black "/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black "/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black " />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black " />
     <link rel="stylesheet" href="css/main.css?=32">
+    <link rel="stylesheet" href="css/racingCarRefitting.css?v=12">
     <script src="js/layout.js?v=12"></script>
     <script src="js/my-config.js?v=12"></script>
     <script src="js/jquery-3.1.0.min.js?v=12"></script>
+
+    <style type="text/css">
+        html body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            -webkit-user-select: none;
+            -webkit-text-size-adjust: 100%;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+         ::-webkit-scrollbar {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+        
+        ul li {
+            list-style: none;
+        }
+    </style>
 </head>
+
 <body>
-<div class="hongbao-v">
-    <img alt="红包返回按钮" src="img/hongbaoback.png" class="hongbao-back"/>
-    <img alt="游戏规则" src="img/hongbaorule.png" class="hongbao-rule"/>
-    <div class="hb-v">
-        <img alt="红包标题" src="img/hongbaotitle.png" class="hongbao-title"/>
-        <div class="hb-open">
-            <div class="hb-time-item-v">
-                <div id="t1" class="hb-time-item">
-                    0
-                </div>
-                <div id="t2" class="hb-time-item">
-                    0
-                </div>
-                <div class="hb-time-item2">
-                    :
-                </div>
-                <div id="t3" class="hb-time-item">
-                    0
-                </div>
-                <div id="t4" class="hb-time-item">
-                    0
-                </div>
-                <div class="hb-time-item2">
-                    :
-                </div>
-                <div id="t5" class="hb-time-item">
-                    0
-                </div>
-                <div id="t6" class="hb-time-item">
-                    0
+    <div class="hongbao-v">
+        <img alt="红包返回按钮" src="img/hongbaoback.png" class="hongbao-back" />
+        <img alt="游戏规则" src="img/hongbaorule.png" class="hongbao-rule" />
+        <div class="hb-v">
+            <img alt="红包标题" src="img/hongbaotitle.png" class="hongbao-title" />
+            <div class="hb-open">
+                <div class="hb-time-item-v">
+                    <div id="t1" class="hb-time-item">
+                        0
+                    </div>
+                    <div id="t2" class="hb-time-item">
+                        0
+                    </div>
+                    <div class="hb-time-item2">
+                        :
+                    </div>
+                    <div id="t3" class="hb-time-item">
+                        0
+                    </div>
+                    <div id="t4" class="hb-time-item">
+                        0
+                    </div>
+                    <div class="hb-time-item2">
+                        :
+                    </div>
+                    <div id="t5" class="hb-time-item">
+                        0
+                    </div>
+                    <div id="t6" class="hb-time-item">
+                        0
+                    </div>
                 </div>
             </div>
+            <img alt="每日红包" src="img/hb-day.png" class="hb-day" />
+            <img alt="每日红包时间" src="img/hb-time.png" class="hb-time" />
         </div>
-        <img alt="每日红包" src="img/hb-day.png" class="hb-day"/>
-        <img alt="每日红包时间" src="img/hb-time.png" class="hb-time"/>
     </div>
-</div>
+    <div class="racing-car-refitting">
+        <header>
+            <img alt="回潮奢体验馆" src="img/hongbaoback.png" />
+            <img alt="游戏规则" src="img/logo.png" />
+        </header>
+        <section id="racingLogin">
+            <i onclick="racingObj.startRacing()"></i>
+        </section>
+        <section id="racingGame" onmousedown="racingObj.hideItem()">
+            <i></i>
+            <footer>
+                <ul id="racingFooterUl">
+                    <li tag="1"></li>
+                    <li tag="2"></li>
+                    <li tag="3"></li>
+                    <li tag="4"></li>
+                </ul>
+                <div id="racingContent">
+                    <img alt="红色" src="img/racing/red.png" />
+                    <img alt="蓝色" src="img/racing/bule.png" />
+                    <img alt="银色" src="img/racing/silvery.png" />
+                    <img alt="白色" src="img/racing/white.png" />
+                    <img alt="紫色" src="img/racing/purple.png" />
+                    <img alt="棕色" src="img/racing/brown.png" />
+                </div>
+            </footer>
+        </section>
+    </div>
 </body>
 <script src="js/main.js?v=12"></script>
+<script src="js/racing.js?v=12"></script>
+
 </html>

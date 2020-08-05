@@ -1,0 +1,120 @@
+.racing-car-refitting {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+}
+
+.racing-car-refitting header {
+    margin-top: 15%;
+    position: relative;
+}
+
+.racing-car-refitting header> :first-child {
+    width: 10rem;
+    position: absolute;
+    left: 2rem;
+}
+
+.racing-car-refitting header> :last-child {
+    width: 10rem;
+    position: absolute;
+    right: 2rem;
+}
+
+.racing-car-refitting #racingLogin {
+    background: url(../img/start-main.png) no-repeat;
+    background-size: 100% 100%;
+    width: 78vw;
+    height: 72vh;
+    position: relative;
+    top: 7rem;
+    margin: 0 auto;
+}
+
+.racing-car-refitting #racingLogin i {
+    background: url(../img/start.png) no-repeat;
+    background-size: cover;
+    width: 13rem;
+    height: 5rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 5rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.racing-car-refitting #racingGame {
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    height: 75vh;
+    display: none;
+}
+
+.racing-car-refitting #racingGame footer {
+    position: fixed;
+    bottom: 0;
+    height: 14.8rem;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.racing-car-refitting #racingGame i {
+    background: url(../img/racing-tip.png) no-repeat;
+    background-size: 100% 100%;
+    width: 27.5rem;
+    height: 5rem;
+    display: inline-block;
+    position: absolute;
+    top: 25vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.racing-car-refitting #racingFooterUl {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.racing-car-refitting #racingFooterUl li {
+    width: 23%;
+    height: 5rem;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+
+.racing-car-refitting #racingGame footer .bg-color {
+    background: url(../img/racing/bg-color.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.racing-car-refitting #racingGame .bg-car {
+    background: url(../img/racing/bg-car.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.racing-car-refitting #racingGame .bg-environment {
+    background: url(../img/racing/bg-environment.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.racing-car-refitting #racingContent {
+    height: 10rem;
+    border: 1px solid;
+}
+
+.racing-car-refitting #racingContent img {
+    display: inline-block;
+    margin-left: 4rem;
+    border: 1px solid;
+    width: 10rem;
+    height: 100%;
+}

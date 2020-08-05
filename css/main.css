@@ -1,18 +1,3 @@
-html body{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    -webkit-user-select: none;
-    -webkit-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
-}
-
 .hongbao-v {
     width: 100vw;
     height: 100vh;
@@ -21,16 +6,18 @@ html body{
     left: 0;
     background-image: url("../img/hongbaobg.png");
     background-size: cover;
+    display: none;
 }
 
-.hongbao-back{
+.hongbao-back {
     width: 10rem;
     position: absolute;
     top: 2.5rem;
     left: 2rem;
     z-index: 1;
 }
-.hongbao-rule{
+
+.hongbao-rule {
     width: 6rem;
     position: absolute;
     top: 0.8rem;
@@ -38,7 +25,7 @@ html body{
     z-index: 1;
 }
 
-.hb-v{
+.hb-v {
     position: absolute;
     width: 100vw;
     height: auto;
@@ -47,7 +34,8 @@ html body{
     display: inline-block;
     -webkit-transform: translateX(-50%) translateY(-50%);
 }
-.hongbao-title{
+
+.hongbao-title {
     width: 28rem;
     /*position: absolute;*/
     float: left;
@@ -56,7 +44,7 @@ html body{
     z-index: 1;
 }
 
-.hb-open{
+.hb-open {
     width: 28rem;
     height: 35rem;
     /*position: absolute;*/
@@ -69,14 +57,14 @@ html body{
     position: relative;
 }
 
-.hb-time-item-v{
+.hb-time-item-v {
     width: 100%;
     position: absolute;
     bottom: 8rem;
     left: 5.2rem;
 }
 
-.hb-time-item{
+.hb-time-item {
     width: 2.2rem;
     height: 3rem;
     text-align: center;
@@ -89,7 +77,7 @@ html body{
     font-weight: 600;
 }
 
-.hb-time-item2{
+.hb-time-item2 {
     width: 0.5rem;
     height: 3rem;
     text-align: center;
@@ -100,7 +88,7 @@ html body{
     font-size: 2.5rem;
 }
 
-.hb-day{
+.hb-day {
     width: 40rem;
     /*position: absolute;*/
     float: left;
@@ -109,7 +97,7 @@ html body{
     z-index: 1;
 }
 
-.hb-time{
+.hb-time {
     width: 16rem;
     float: left;
     margin-top: 3rem;
