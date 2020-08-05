@@ -34,7 +34,7 @@ function addZero(i) {
 
 function countDown() {
     var nowtime = new Date();
-    console.log(parseInt(nowtime.getTime() / 1000));
+    // console.log(parseInt(nowtime.getTime() / 1000));
 
     // var endtime = new Date("2020/08/04 17:57:00");
     // var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
@@ -77,6 +77,6 @@ function countDown() {
         }
 
     } else {
-        console.log(`活动倒计时 ${d} 天 ${h} 时 ${m} 分 ${s} 秒`)
+        // console.log(`活动倒计时 ${d} 天 ${h} 时 ${m} 分 ${s} 秒`)
     }
 }
