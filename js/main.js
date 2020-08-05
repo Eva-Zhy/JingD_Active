@@ -62,9 +62,9 @@ function countDown() {
     } else {
         $("#t6").html(s_arr[1]);
     }
-    console.log("s_arr",s_arr);
-    console.log("t5",s_arr[0]);
-    console.log("t6",s_arr[1]);
+    // console.log("s_arr",s_arr);
+    // console.log("t5",s_arr[0]);
+    // console.log("t6",s_arr[1]);
     // document.querySelector(".count").innerHTML = `活动倒计时  ${d}天 ${h} 时 ${m} 分 ${s} 秒`;
 
     if (lefttime <= 0) {
