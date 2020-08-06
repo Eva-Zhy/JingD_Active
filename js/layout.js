@@ -41,6 +41,8 @@ var text = "";
         if (!clientWidth) return;
         if (clientWidth <= 750) {
             docEl.style.fontSize = clientWidth / 40 + 'px';
+        } else {
+            document.documentElement.style.fontSize='18px';
         }
         console.log(".fontSize", docEl.style.fontSize)
         // 解决部分rem特别大的问题
