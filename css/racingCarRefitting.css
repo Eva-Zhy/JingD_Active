@@ -178,3 +178,12 @@
     width: 16rem;
     margin-top: 4rem;
 }
+
+@media screen and (min-height:750px) and (max-height:900px) {
+    .racing-car-refitting #racingLogin i {
+        bottom: 8rem;
+    }
+    .racing-car-refitting header {
+        margin-top: 17%;
+    }
+}
